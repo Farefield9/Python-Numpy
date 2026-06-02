@@ -1,3 +1,5 @@
-import numpy as np
 a = np.array([[14,-1,26],[12,-10,100]])
 a.sort()
+print(a)
+a.sort(axis = 0)
+print(a)
