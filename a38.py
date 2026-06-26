@@ -1,0 +1,11 @@
+import numpy as np
+c = np.arange(-1,9.5,0.25).reshape((14,3))
+print(c)
+print(np.hsplit(c,3))
+print(np.sum(c,axis = 0))
+print(np.sum(c,axis = 1))
+print(np.sum(c))
+print(np.min(c))
+print(np.max(c))
+print(np.mean(c))
+print(np.std(c))
